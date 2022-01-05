@@ -1,0 +1,223 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar{
+height: 6rem;
+background-color: #f7f9f985;
+float: inline;
+width: 100%;  
+font-size: 16px;
+  
+}
+.menu2> li{
+  float: left;  
+}
+.menu1 > li{
+width: auto;
+float:right;
+padding: 5px 70px;
+
+}
+.menu2{
+   padding-right: 70px;
+   height: 10px;
+   top: 0%;
+}
+
+.menu1 li a{
+   color: black;
+   text-decoration:none;
+   display: block;
+}
+
+.unete{
+   
+   padding-left: 10px;
+   padding-right: 10px;
+   border: 1px solid none;
+   border-radius: 5px;
+   background-color:rgba(131, 130, 130, 0.699);
+  
+}
+li:hover{
+   
+   background-color: #F7F9F9;
+
+}
+ul{
+  list-style: none;
+}
+.menu1 li ul{
+   display:none;
+   position:fixed;
+   
+}
+.menu1 li:hover > ul{
+   display:block;
+   margin-top: 7px;
+   padding: 0px 20px ;
+}
+
+/* CARRITO */
+
+.submenu {
+  position: relative;
+  left: -20px;
+  top: -15px;
+  overflow-y: scroll;
+  width: 400px;
+  height: 450px;
+  
+}
+.submenu #carrito{
+  display: none;  
+  width: 100%;
+  margin-right: -20px;
+  
+}
+
+.submenu:hover #carrito{
+   display: block; 
+  color: rgb(85, 84, 84);
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  z-index: 1;
+  background: #dfd6d686;
+  width: 380px;
+  
+  /* padding: 40px; */
+}
+.vaciar:hover{
+  background-color: rgba(117, 43, 43, 0.808) !important;
+}
+.borrar-producto{
+  background: rgba(156, 153, 153, 0.644);
+  border: none;
+}
+
+
+h1 {
+  margin-left: 100px;
+  font-family: 'Italiana', serif;
+  color: rgb(104, 96, 96);
+ 
+ 
+}
+
+
+.fa-shopping-cart{
+  display: flex;
+  margin-top: -45px;
+  margin-right: 70px;
+  color: rgb(104, 96, 96);
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+
+/* PRODUCTOS */
+
+.products{
+  width: 70%;
+}
+.card {
+  padding-top: 100px;
+  text-align: center;
+  background: none;
+  border:none;
+}
+.card>img{
+  height: 250px;
+}
+
+.info-card {
+  background: rgba(209, 207, 207, 0.795);
+  padding: 10px 20px;
+  color: rgb(109, 99, 99);
+}
+
+.card h4 {
+  margin-bottom: 5px;
+
+}
+.info-card .precio {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.precio{
+  font-weight: 600;
+}
+
+/* FONDO */
+.fondo{
+  background-image: url(../img/fondo.jpeg);
+  background-repeat: repeat;
+  z-index: 0;
+  width: 100%;
+ 
+}
+
+/* FORMULARIO-CONTACTO */
+.formulario{
+  padding: 80px;
+  margin-top: 10px;
+}
+.container{
+  position: relative;
+  left:40px;
+}
+.iconos{
+  margin-top: 70px;
+  
+  
+}
+.iconos a{
+  color:black;
+  font-weight:450;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.form-control{
+  background-color: rgba(255, 255, 255, 0.274);
+  width: 1000px;
+
+}
+
+/* FOOTER */
+
+footer{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  
+  
+}
+.footerClass{
+  display: inline-table;
+  
+}
+.footerClass li{
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 450;
+  margin-top: 25px;
+  margin-right: 115px;
+} 
+.footerClass li a{
+  color:black;
+  text-decoration: none;
+
+}

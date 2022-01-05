@@ -1,0 +1,160 @@
+/* SECCION RESPONSIVE */
+
+@media screen and (max-width: 700px){
+    
+    /* MENU */
+.navbar{
+    width: 50px;
+    }
+.portada{
+    position: fixed;
+    width: 100%;
+	top:0;
+	left:0;
+}
+.main{
+    overflow: auto;
+    top: 0px;
+}
+/* CARRUSEL PORTADA */
+.portada{
+   width: 350px;
+   display: flex;
+   justify-content: center;
+}
+.carousel-caption{
+    height: 0rem;
+    margin-left: 0rem;
+    font-family: 'Italiana', serif;
+    font-size: 8rem;
+}
+
+
+
+/* MAIN */
+.fondo{
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: repeat;
+    z-index: 0;
+    margin-top: 150px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+/* RELOJ */
+
+.caja{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    /* margin-bottom: 2rem; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 2rem;
+    background-position: -9rem;
+    width: 280px;
+    border: 1px solid rgb(70, 62, 62) ;
+    text-align: center;
+    height: 20rem;
+    
+     
+}
+.caja>h2{
+    margin-left: 5rem;
+   font-size: 4rem;
+   font-weight: 400;
+   
+   
+}  
+.hotSale{
+    padding: 0.600rem;
+    margin-top: 2.5rem;
+    position: relative;
+    color: rgb(26, 25, 25);
+    width: 250px;
+    height: 15rem;
+    right: 0rem;
+    background-color:#d3d6d6c9;
+   
+    
+}
+
+
+ .hotSale>p{
+    
+    font-size: 1rem;
+    font-weight:600;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0px;
+    
+} 
+
+ .cuerporeloj{
+    display:flex;
+    float: inline;
+    font-weight:600;
+    color: rgba(36, 36, 36, 0.753);
+    letter-spacing: 0px;
+     
+} 
+ .cuerporeloj>.space{
+    
+    margin: 5px;
+
+}
+.cuerporeloj .number{
+    font-size: 20px;
+    font-weight:600;
+    left: 2rem;
+   
+} 
+
+/*GALERIA*/
+.ss2022{
+    font-family: 'Italiana', serif;
+    font-size: 4rem;
+    color: rgb(41, 39, 39);
+    text-align: center;
+    background-color: #cfcecead;
+    margin: 2rem;
+    height: 14rem;
+    margin-top: 150px;
+    width: 280px;
+
+
+}
+.btnSs{  
+    margin-top: 1rem;
+    width: 270px;
+
+}
+/* FORMULARIO */
+
+.card{
+    padding-top: 100px;
+    width: 270px;
+}
+
+.container{
+    position: relative;
+    left:2rem;
+}
+.iconos{
+    margin-top: 30px;
+}
+ .iconos a{
+    color:black;
+    font-weight:450;
+    font-size: 20px;
+    text-decoration: none;
+
+} 
+
+
+.form-control{
+    background-color: rgba(255, 255, 255, 0.274);
+    width: 250px;
+}
+
+}
